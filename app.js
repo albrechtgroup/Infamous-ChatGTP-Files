@@ -80,3 +80,18 @@ console.log(afterSale(food, totalCash, discounts));
 // If there's time, edit the return value of the 
 // function so it returns true if you can buy all
 // the items AFTER discounts have been applied.*
+
+
+
+// 'DigFinds' Exercise REDO:
+const digFinds = ['rock', 'diamond', 'rock', 'rock', 'gold', 'concrete', 'rock', 'concrete', 'concrete', 'diamond', 'dinosaur fossile', 'rock'];
+
+for (let i = 0; i < digFinds.length; i++) {
+    if(digFinds[i] === 'diamond' || digFinds[i] === 'gold') {
+        console.log("I am Freakin RICH!!! ", digFinds[i])
+    } else if (digFinds[i] === 'rock' || digFinds[i] === 'concrete') {
+        console.log("Garbage, dump this. ", digFinds[i])
+    } else {
+        console.log(`This is what's left Sir. ${digFinds[i]}`)
+    }
+}
