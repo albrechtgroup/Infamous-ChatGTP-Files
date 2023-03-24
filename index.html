@@ -8,29 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>ChatGTP Files:</h1>
-
-    <h1>To-Do List</h1>
-    <form>
-        <input type="text" id="task" placeholder="Enter task">
-        <button type="button" onclick="addTask()">Add Task</button>
-    </form>
-    <ul id="task-list"></ul>
-    <script>
-        function addTask() {
-        // Get the task from the input
-        var task = document.getElementById('task').value;
-        // Create a new list item
-        var li = document.createElement('li');
-        // Set the text of the list item to the task
-        li.innerHTML = task;
-        // Add the list item to the task list
-        document.getElementById('task-list').appendChild(li);
-        // Clear the input
-        document.getElementById('task').value = '';
-    }
-    </script>
-
+    <h1>My Copy & ChatGTP</h1>
+    
     <script src="app.js"></script>
 </body>
 </html>
